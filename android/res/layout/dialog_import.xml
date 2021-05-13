@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:useDefaultMargins="true"
+    android:paddingLeft="10dp"
+    >
+
+    <TextView
+        android:text="Voxel size(cm)"
+        android:layout_marginRight="50dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/stl_scale"
+        android:width="50dp"
+        android:text="1"
+        android:inputType="numberDecimal">
+    </EditText>
+
+    <TextView
+        android:text="File extension">
+    </TextView>
+
+    <TextView
+        android:width="50dp"
+        android:text="stl"
+        android:textSize="14dp"
+        android:textColor="@android:color/black">
+    </TextView>
+
+</GridLayout>

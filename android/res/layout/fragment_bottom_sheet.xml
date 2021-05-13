@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/import_project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Export"
+        style="@style/Widget.MaterialComponents.Button.TextButton">
+    </Button>
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        style="@style/Widget.MaterialComponents.Button.TextButton">
+    </Button>
+    <Button
+        android:id="@+id/change_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rename"
+        style="@style/Widget.MaterialComponents.Button.TextButton">
+    </Button>
+</LinearLayout>
